@@ -6,37 +6,80 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 50px;
+            background-color: #f9f3f3;
+            margin: 0;
+            padding: 50px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container {
+            background-color: #fff0f5; /* light pink box */
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 8px 20px rgba(200, 100, 150, 0.2);
+            max-width: 700px;
+            width: 100%;
+        }
+
+        h1 {
+            color: #c2185b;
+            margin-top: 0;
+        }
+
+        h2 {
+            color: #ad1457;
+            margin-bottom: 10px;
+        }
+
+        p {
             line-height: 1.6;
+            color: #4a2c3a;
         }
+
         a {
-            color: #1a73e8;
+            color: #d81b60;
             text-decoration: none;
+            font-weight: bold;
         }
+
         a:hover {
             text-decoration: underline;
+        }
+
+        .section {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #ffe4ec;
+            border-radius: 12px;
         }
     </style>
 </head>
 <body>
 
-    <h1>Zohra Hussaini</h1>
-    <p>Information Science Student at UIUC</p>
+    <div class="container">
+        <h1>Zohra Hussaini</h1>
+        <p>Information Science Student at UIUC</p>
 
-    <p>
-        Hello! I am interested in digital culture, artificial intelligence,
-        and how technology shapes knowledge and society.
-    </p>
+        <p>
+            Hello! I am interested in digital culture, artificial intelligence,
+            and how technology shapes knowledge and society.
+        </p>
 
-    <h2>IS310 Project</h2>
-    <p>
-        <a href="chatgbt.html">View My Digital Object: ChatGPT as a Digital Cultural Object</a>
-    </p>
+        <div class="section">
+            <h2>IS310 Project</h2>
+            <p>
+                <a href="chatgbt.html">View My Digital Object: ChatGPT as a Digital Cultural Object</a>
+            </p>
+        </div>
 
-    <h2>Links</h2>
-    <p>
-        <a href="https://github.com/zoakhu" target="_blank">My GitHub Profile</a>
-    </p>
+        <div class="section">
+            <h2>Links</h2>
+            <p>
+                <a href="https://github.com/zoakhu" target="_blank">My GitHub Profile</a>
+            </p>
+        </div>
+    </div>
 
 </body>
 </html>
